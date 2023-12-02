@@ -1,97 +1,122 @@
+/* Estilos para la barra de navegación */
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #333; /* Fondo negro */
+    padding: 10px; /* Relleno de 10px */
 }
 
+/* Estilos para las listas no ordenadas <ul> */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; /* Elimina los estilos de viñetas/puntos */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
 }
 
+/* Estilos para los elementos de lista <li> dentro de <ul> */
 li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Muestra los elementos de lista en línea (horizontalmente) */
+    margin-right: 20px; /* Margen a la derecha de 20px entre elementos */
 }
 
+/* Estilos para los enlaces <a> */
 a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Color del texto blanco */
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
 }
 
+/* Estilos para la sección general */
 section {
-    margin: 20px;
+    margin: 20px; /* Margen de 20px alrededor de la sección */
 }
 
+/* Estilos para el título h1 */
 h1 {
-    font-family: 'Lato', sans-serif;
-    color: #1e0b98;
+    font-family: 'Lato', sans-serif; /* Tipo de fuente y fuente alternativa */
+    color: #1e0b98; /* Color del texto púrpura oscuro */
 }
 
+/* Estilos para los títulos h2 */
 h2 {
-    color: #333;
+    color: #333; /* Color del texto gris oscuro */
 }
 
+/* Estilos para la sección de contacto con el id #contacto */
 #contacto {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f8f8f8;
+    text-align: center; /* Alineación central del texto */
+    padding: 50px 20px; /* Relleno superior e inferior de 50px y relleno izquierdo/derecho de 20px */
+    background-color: #f8f8f8; /* Fondo gris claro */
 }
 
+/* Estilos para los títulos h2 dentro de #contacto */
 #contacto h2 {
-    color: #333;
+    color: #333; /* Color del texto gris oscuro */
 }
 
+/* Estilos para los párrafos dentro de #contacto */
 #contacto p {
-    color: #666;
-    margin-bottom: 20px;
+    color: #666; /* Color del texto gris */
+    margin-bottom: 20px; /* Margen inferior de 20px */
 }
 
+/* Estilos para el formulario */
 form {
-
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: white;
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario en el contenedor */
+    padding: 20px; /* Relleno de 20px */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: white; /* Fondo blanco */
 }
 
+/* Estilos para las etiquetas de formulario */
 label {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
+    display: block; /* Muestra las etiquetas en bloques */
+    margin-bottom: 10px; /* Margen inferior de 10px */
+    color: #333; /* Color del texto gris oscuro */
 }
 
+/* Estilos para los campos de entrada y áreas de texto */
 input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
+    width: 100%; /* Ancho del 100% del contenedor */
+    padding: 10px; /* Relleno de 10px */
+    border: 1px solid #ccc; /* Borde de 1px sólido gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
+    margin-bottom: 20px; /* Margen inferior de 20px */
 }
 
+/* Estilos para los botones */
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Color del texto blanco */
+    padding: 12px; /* Relleno de 12px */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 
+/* Estilos para los botones cuando están en estado de "hover" (sobre ellos) */
 button:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Cambia el color de fondo al verde oscuro al pasar sobre el botón */
 }
 
+/* Estilos para la sección de experiencia con el id #experiencia */
+#experiencia {
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
+
+/* Estilos para los trabajos dentro de #experiencia */
+#experiencia .job {
+    margin-bottom: 20px; /* Margen inferior de 20px entre trabajos */
+}
+
+/* Estilos para la sección con el id #img */
 #img {
-    display: flex;
-    max-width: 35%; 
-     
+    display: flex; /* Usa el modelo de caja flexible para los elementos hijos */
+    max-width: 35%; /* Ancho máximo del 35% del contenedor padre */
 }
 
+/* Estilos para las imágenes dentro de #img */
 #img img {
-    width: 100%; 
-    height: auto; 
+    width: 100%; /* Ancho del 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
 }
