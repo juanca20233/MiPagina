@@ -19,7 +19,7 @@ li {
 
 /* Estilos para los enlaces <a> */
 a {
-    color: white; /* Color del texto blanco */
+    color: blue; /* Color del texto blanco */
     text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
 }
 
